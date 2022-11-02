@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -8,34 +8,36 @@
     <link rel="shortcut icon" href="../img/Screenshot 2022-10-01 at 01-58-54 Anhelados (@sabores.anhelados) • Fotos y videos de Instagram.png" type="image/x-icon">
     <!--CSS-->
     <link rel="stylesheet" href="../css/estilo.css">
+     <!-- CSS only -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 </head>
 <body>
  
-     <!--NAVBAR-->
-  <div class="Navbar">
+    <!--NAVBAR-->
+  <div class="Navbar1">
     <nav class="navbar navbar-expand-lg bg-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="../css/index.html">ANHELADOS</a>
+        <a class="navbar-brand" href="../index.html">ANHELADOS</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarScroll">
           <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="html/helados.html">Helados</a>
+              <a class="nav-link active" aria-current="page" href="../html/tortas.html">Tortas</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="../css/html/tortas.html">Tortas</a>
+              <a class="nav-link" href="../html/pasteleria.html">Pasteleria</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link dropdown-toggle" href="mas" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 mas
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="../css/html/panaderia.html">Panaderia</a></li>
-                <li><a class="dropdown-item" href="../css/html/huevosDePascua.html">Huevos de pascua</a></li>
+                <li><a class="dropdown-item" href="../html/panaderia.html">Panaderia</a></li>
+                <li><a class="dropdown-item" href="../html/huevosDePascua.html">Huevos de pascua</a></li>
                 <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="../css/html/pasteleria.html">Pasteleria</a></li>
+                <li><a class="dropdown-item" href="../html/FormularioDeContacto.html">Formulario</a></li>
               </ul>
             </li>
           </ul>
@@ -49,32 +51,43 @@
       </div>
  
  
- 
- 
- 
     <header>   
-    <nav>
-        <ul>
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="pasteleria.html">Pasteleria</a></li>
-            <li><a href="helados.html">Helados</a></li>
-            <li><a href="tortas.html">Tortas</a></li>
-            <li><a href="huevosDePascua.html">Huevos de pascua</a></li>
-            <li><a href="panaderia.html">Panaderia</a></li>
-           </ul>
-      </nav>
-    <h1>Sos diabetico? vegano? intolerante a la lactosa?</h1>
-    <p>Veni a conocer nuestros productos, que nada te impida refrescarte y darte un gustito</p>
-    <img src="../img/helado.jpg" alt="img">
-    <img src="../img/helados0.jpg" alt="img">
-    <img src="../img/helados1.jpg" alt="img">
-    <img src="../img/helados2.jpg" alt="img">
-    <img src="../img/ultima.png" alt="img">
-    <img src="../img/heladosVeg.jpg" alt="img">
+   
+    <h1 class="h1Helados">Sos diabetico? vegano? intolerante a la lactosa?</h1>
+    <p class="pHelados">Veni a conocer nuestros productos, que nada te impida refrescarte y darte un gustito</p>
+       <!--card-->
+       <section class="HeladosA"> 
+        <div class="card" style="width: 40rem;">
+          <img src="../img/heladosVeg.jpg" class="card-img-top" alt="img">
+          <div class="card-body">
+            <p class="card-text">#</p>
+          </div>
+        </div>
+        <div class="card" style="width: 40rem;">
+          <img src="../img/heladosvariedad.png" class="card-img-top" alt="img">
+          <div class="card-body">
+            <p class="card-text">#</p>
+          </div>
+        </div>
+        <div class="card" style="width: 40rem;">
+          <img src="../img/helados0.jpg" class="card-img-top" alt="img">
+          <div class="card-body">
+            <p class="card-text">#</p>
+          </div>
+        </div>
+        <div class="card" style="width: 40rem;">
+          <img src="../img/helado.jpg" class="card-img-top" alt="img">
+          <div class="card-body">
+            <p class="card-text">#</p>
+          </div>
+        </div>
+       </section> 
   
  </header>
  <footer>
-    <h3>Página web creada por Jaquelina Lucero</h3>
+    <h3 class="footerHelados">Página web creada por Jaquelina Lucero</h3>
  </footer>   
+  <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
 </html>

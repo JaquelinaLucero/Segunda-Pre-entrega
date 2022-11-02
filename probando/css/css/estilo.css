@@ -16,13 +16,22 @@ body {
 }
 
 /*NAVBAR*/
-.Navbar  {
+.Navbar1  {
     display: flex;
     font-size:16px;
     background-color: aliceblue;
     position: relative;
     top: 0;
 
+}
+@media (max-width:600px) {
+    .Navbar1 {
+        display: flex;
+        font-size:16px;
+        background-color: aliceblue;
+        position: relative;
+        top: 0;
+    }
 }
 
 /*h1*/
@@ -36,6 +45,18 @@ body {
     width: 135rem;
     text-align: center;
 
+}
+@media (max-width:600px) {
+    .titulo {
+    font-size: 30px;
+    color: rgba(2, 2, 2, 0.918); 
+    
+    background-color: #3089c1aa;
+    height: 4rem;
+    width: 135rem;
+    text-align: center;
+
+    }
 }
 /*h2*/
 .productos {
@@ -52,16 +73,15 @@ nav {
     background-image: url(../img/AnheladosLogo.jpeg);
     background-repeat: repeat; 
     height: 4rem;
-    width: 135rem;
-
+    width: 135rem; 
     
 }
 nav ul li {
     list-style-type: none;
     display: inline-block;
     margin: 1rem;
-} 
 
+}
 
 
 /*CARROUSEL*/
@@ -96,6 +116,7 @@ nav ul li {
     
 }
 
+
 /*REDES SOCIALES*/
 .redesSociales {
     text-align: center;
@@ -104,11 +125,13 @@ nav ul li {
     height: 6rem;
     width: 135rem;
 }
+
 h3 ul li{
     list-style-type: none;
     display: inline-block;
     margin: 1rem;
 }
+
     
 
 
@@ -119,6 +142,14 @@ h3 ul li{
     background-color: #3089c1aa;
     text-align: center;
     grid-area: footer;
+}
+@media (max-width:600px) {
+    .footer {
+        padding-top: 2rem;
+    background-color: #3089c1aa;
+    text-align: center;
+    grid-area: footer;
+    }
 }
 
 /*BUTTON*/
@@ -149,6 +180,7 @@ h3 ul li{
     background-color: #3089c1aa;
     height: 38rem;
 }
+
 
 .formulario1 {
     background-color: #3089c1aa;
@@ -191,14 +223,81 @@ h2 ul li{
     text-align: center;
     grid-area: footer;
 }
-/*index PASTELRIA*/
+/*index PASTELERIA*/
 .Pasteleria {
     background-color: #3089c1aa;
     text-align: center;
    
 }
+/*PASTELERIA*/
+.Pasteleria1 {
+   background-color: #3089c1aa;
+   text-align: center;
+}
+.pasteleriaFooter {
+    background-color: #3089c1aa;
+    text-align: center;
+}
 
 
+
+
+/*HELADOS*/
+.h1Helados {
+    background-color: #3089c1aa;
+    text-align: center;
+}
+.pHelados {
+    text-align: center;
+    font-size: 16px;
+}
+.footerHelados {
+    background-color: #3089c1aa;
+    text-align: center;
+}
+.HeladosA {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/*HUEVOS INDEX*/
+.huevosh1 {
+    background-color: #3089c1aa;
+    text-align: center;
+}
+.huevosFooter{
+    background-color: #3089c1aa;
+    text-align: center;
+    font-size: 16px;
+}
+
+/*  PANADERIA */
+.panaderia {
+    background-color: #3089c1aa;
+    text-align: center;
+    font-size: 16px;
+}
+.panaderiacard {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    margin-left: 0;
+    margin-right: 0;
+}
+.Panaderia1 {
+    text-align: center;
+    background-image: url(../img/AnheladosLogo.jpeg);
+    background-repeat: repeat; 
+    height: 6rem;
+    width: 135rem;
+}
+.panaderiaFooter {
+    text-align: center;
+    background-color: #3089c1aa;
+}
 
 
 
