@@ -1,60 +1,70 @@
-
 body {
-    background-color: $colorFondo !important;
+  background-color: $colorFondo !important;
 }
 
 .productosh2 {
-    color: red !important;
-    text-align: center;
+  color: red !important;
+  text-align: center;
 }
 
 .productos li {
- display: inline-block;
- padding-left: 3px;
- padding-right: 3px;
- width: 250px;
- 
+  display: inline-block;
+  padding-left: 3px;
+  padding-right: 3px;
+  width: 250px;
+
 }
+
 .textoAnhelados h1 {
-    background-image: url(../img/313399821_173716635308443_6066518663066274743_n.jpg);
-    color: $colorTitulos;
-    text-align: center;
-    margin: 0px;
+  background-image: url(../img/313399821_173716635308443_6066518663066274743_n.jpg);
+  color: $colorTitulos;
+  text-align: center;
+  margin: 0px;
 }
-.productos{
-  ul{
+
+.productos {
+  ul {
     background-color: $colorFondo;
-    text-align: center; 
+    text-align: center;
     width: 100%;
   }
+
   a {
     text-decoration: none;
     color: $colorTitulos;
-    
+
   }
 }
+
 .buttonestilo {
-    position:fixed;
-    bottom: 0;
-    right: 0;
-    z-index: 2000;
-    border: none;
-    padding: 10px;
-    text-align: center;
-    display: inline-block;
-    margin: 4px 2px;
-    border-radius: 50%;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 2000;
+  border: none;
+  padding: 10px;
+  text-align: center;
+  display: inline-block;
+  margin: 4px 2px;
+  border-radius: 50%;
 
-    &:hover {
-        background: linear-gradient(to top, rgb(91, 161, 205), #3086);
-        height: 130px;
-        width: 130px;
-    }
+  &:hover {
+    background: linear-gradient(to top, rgb(91, 161, 205), #3086);
+    height: 130px;
+    width: 130px;
+  }
 
-    a {
-        text-decoration: none;
-        color: black;
-    }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+}
+
+h2 {
+  display: inline-block;
+  margin: 0;
+  text-align: right;
+
 }
 
 /*CARROUSEL*/
@@ -62,31 +72,34 @@ body {
 .imgTortas {
   height: 350px;
   object-fit: cover;
-  width: 100% !important; }
+  width: 100% !important;
+}
 
 .imgHelados {
   height: 350px;
   object-fit: cover;
-  width: 100% !important; }
+  width: 100% !important;
+}
 
 .imgHuevos {
   height: 350px;
   object-fit: cover;
-  width: 100% !important; }
-
-  /*REDES SOCIALES*/
-.redesSociales {
-    text-align: center;
-    background-image: url(../img/AnheladosLogo.jpeg);
-    background-repeat: repeat; 
-    height: 5rem;
-    width: 100%;
+  width: 100% !important;
 }
 
-h3 ul li{
-    list-style-type: none;
-    display: inline-block;
-    margin: 1rem;
+/*REDES SOCIALES*/
+.redesSociales {
+  text-align: center;
+  background-image: url(../img/AnheladosLogo.jpeg);
+  background-repeat: repeat;
+  height: 5rem;
+  width: 100%;
+}
+
+h3 ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 1rem;
 }
 
 
@@ -104,16 +117,17 @@ h3 ul li{
   text-align: center;
 }
 
-@media screen and (max-width: 600px){
-    .buttonestilo {
-        display: none !important;
-    }
+@media screen and (max-width: 600px) {
+  .buttonestilo {
+    display: none !important;
+  }
 }
 
 @mixin textos {
   text-align: center;
-  
+
 }
+
 /**********************HELADOS******************************/
 .h1Helados {
   @include textos;
@@ -123,6 +137,7 @@ h3 ul li{
 .huevosh1 {
   @include textos;
 }
+
 /***********************PASTELERIA******************************/
 .Pasteleria1 {
   @include textos;
